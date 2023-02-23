@@ -28,6 +28,7 @@ public class Utility_Functions extends Tab_Veriables{
             device_main_menu_Key.click();
             Thread.sleep(2000);
             search_App.setText(AppName);
+            search_App.click();
             Thread.sleep(2000);
 
             if (click_on_App1.exists()) {
