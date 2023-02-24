@@ -1,7 +1,7 @@
 
-»
-X
-ExampleInstrumentedTestcom.example.testtabuseAppContext2£„ÜŸÀÀ{:£„ÜŸÀóÿ®"Ù
+¼
+Y
+ExampleInstrumentedTestcom.example.testtabuseAppContext2ñÁâŸ€éŠ:ñÁâŸÀÍÖ¬"Ù
 
 logcatandroidÃ
 ÀC:\Users\Shivaprasad_Waradai\AndroidStudioProjects\TestTab\app\build\outputs\androidTest-results\connected\SM-T355Y - 7.1.1\logcat-com.example.testtab.ExampleInstrumentedTest-useAppContext.txt"¨
@@ -15,7 +15,7 @@ X
 device-info.cpuinfoandroid†
 ƒC:\Users\Shivaprasad_Waradai\AndroidStudioProjects\TestTab\app\build\outputs\androidTest-results\connected\SM-T355Y - 7.1.1\cpuinfo¨
 O
-Tab_Settingscom.example.testtabmst_Operations2£„ÜŸ€öé¼:Û„ÜŸ€Õ‹Ü"Ï
+Tab_Settingscom.example.testtabmst_Operations2ñÁâŸ€¾Ì¸:ûÂâŸ€×–"Ï
 
 logcatandroid¹
 ¶C:\Users\Shivaprasad_Waradai\AndroidStudioProjects\TestTab\app\build\outputs\androidTest-results\connected\SM-T355Y - 7.1.1\logcat-com.example.testtab.Tab_Settings-mst_Operations.txt"¨

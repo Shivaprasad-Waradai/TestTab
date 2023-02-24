@@ -1,2 +1,2 @@
-02-23 11:35:23.401 16901 16923 I TestRunner: started: useAppContext(com.example.testtab.ExampleInstrumentedTest)
-02-23 11:35:23.410 16901 16923 I TestRunner: finished: useAppContext(com.example.testtab.ExampleInstrumentedTest)
+02-24 17:05:14.949 27799 27814 I TestRunner: started: useAppContext(com.example.testtab.ExampleInstrumentedTest)
+02-24 17:05:14.957 27799 27814 I TestRunner: finished: useAppContext(com.example.testtab.ExampleInstrumentedTest)

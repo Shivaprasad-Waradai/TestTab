@@ -45,7 +45,7 @@ public class Tab_Settings extends Utility_Functions{
 
 
             int i;
-            for(i=1;i<=2;i++) {
+            for(i=1;i<=Tab_Settings;i++) {
                 mst_Settings();
                 System.out.println(" **********************MST_Settings " + i);
             }
@@ -54,7 +54,44 @@ public class Tab_Settings extends Utility_Functions{
 
         public void mst_Settings() throws Exception{
             try{
-                //device.
+
+
+
+                //*******************initializing the required objects********************
+                UiObject Sound_Vib = new UiObject(new UiSelector()
+                        .text(Settings_Sounds_and_Vib_Text));
+                UiObject Notification = new UiObject(new UiSelector()
+                        .text(Settings_Notifications_Text));
+                UiObject Display = new UiObject(new UiSelector()
+                        .text(Settings_Display_Text));
+                UiObject Wallpaper = new UiObject(new UiSelector()
+                        .text(Settings_Sounds_and_Vib_Text));
+                UiObject Adv_Feature = new UiObject(new UiSelector()
+                        .text(Settings_Advanced_features_Text));
+                UiObject Dev_Maintenance = new UiObject(new UiSelector()
+                        .text(Settings_Device_Maintenence_Text));
+                UiObject Apps = new UiObject(new UiSelector()
+                        .text(Settings_Apps_Text));
+                UiObject Lock_Screen = new UiObject(new UiSelector()
+                        .text(Settings_Lock_and_Security_Text));
+                UiObject Cloud_Acc = new UiObject(new UiSelector()
+                        .text(Settings_Cloud_and_Accounts_Text));
+                UiObject Google = new UiObject(new UiSelector()
+                        .text(Settings_Google_Text));
+                UiObject Access = new UiObject(new UiSelector()
+                        .text(Settings_Assessibility_Text));
+                UiObject Gen_Mgnt = new UiObject(new UiSelector()
+                        .text(Settings_General_Management_Text));
+                UiObject SW_Udt = new UiObject(new UiSelector()
+                        .text(Settings_SW_update_Text));
+                UiObject User_Mnul = new UiObject(new UiSelector()
+                        .text(Settings_User_Manual_Text));
+                UiObject Abt_Tab = new UiObject(new UiSelector()
+                        .text(Settings_About_Tab_Text));
+                UiObject Devop = new UiObject(new UiSelector()
+                        .text(Settings_Sounds_and_Vib_Text));
+
+
                 device.wakeUp();
                 device.pressBack();
                 device.pressHome();
@@ -76,6 +113,8 @@ public class Tab_Settings extends Utility_Functions{
                 UiObject  BT_On_or_Off = new UiObject(new UiSelector()
                         .resourceId(Switch_Text_BT_Resource_Id));
                 String test = BT_On_or_Off.getText();
+
+
                 //****************************Condition BT Toggle ON or OFF *******************************
                 if(test.equalsIgnoreCase("OFF")){
                     Thread.sleep(5000);
