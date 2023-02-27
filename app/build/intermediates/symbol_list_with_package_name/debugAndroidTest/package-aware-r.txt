@@ -1,3 +1,0 @@
-com.example.testtab.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
